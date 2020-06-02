@@ -62,10 +62,10 @@ description about how to set these parameters is provided in the file itself.
 3.	If you are using the pre computed then just open the jupyter note book and run the file name UI.ipynb it will open the UI window like this
  ![Screen Shot of Seatch Engine UI](https://github.com/shabbiruic/WebSearchEngine/blob/master/ScreenShot.png)
 4. If you want to compute everything from scratch then follow this steps it will take around 1:30 to 2 hours computation time.
-a)	First run the WebCrawler.ipynb file by just opening it and running its first cell in juypter notebook
-b)	Then run the Vectorier.ipynb file by just opening it and running its first cell in juypter notebook.
-c)	After then run the PageRank. ipynb file by just opening it and running its first cell in juypter notebook.
-d)	Now at last run the UI.ipynb file by just opening it and running its first cell in juypter notebook. it Will open the GUI whose image is described above.
+  - First run the WebCrawler.ipynb file by just opening it and running its first cell in juypter notebook
+  - Then run the Vectorier.ipynb file by just opening it and running its first cell in juypter notebook.
+  - After then run the PageRank. ipynb file by just opening it and running its first cell in juypter notebook.
+  - Now at last run the UI.ipynb file by just opening it and running its first cell in juypter notebook. it Will open the GUI whose image is described above.
 
 
 
