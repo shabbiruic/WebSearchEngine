@@ -36,13 +36,13 @@ will be needing this rank to sort the links
 according to their importance.
 
 ## Various Module details in project
-- Web Crawling : It is collecting the URL starting from the provided seed URL and fetch all its related pages and keep on doing it until desired amount of pages are collected. done by WebCrawler.ipynb
-- Web Scraping : It is Parsing of the web Pages and collecting usual information from it like other pages link and data which is visible to user. It is done by Scrapper.py  
-- Vectorizing : We are calculating the **TF-IDF** from the fetched web pages data so as to convert their content into the vector form which later can be used for calculation of similarity of query. It is done by Vectorizer.iynpb.
-- Ranking : We are providing the rank to each web pages depending on its links to various pages and their ranks. So we have used **Page Rank Algorithm** to rank them. It is done by PageRank.ipynb
-- Search : One of the main task is to get the relevant links depending on query. For this first we calculates the Vector form of query in the similar way which is done for all the web pages content then computes **cosine similarity** of query vector with all the web pages and gives the top most similar web pages URL. After that sort those URLs depending on the ranks which is calculated in above step and sort it. These all stepa are done by Searh.py
-- User Interface : This is place throw which user interact with the system. Here he can provide the textbox where query can be entered and search. User can also navigate to and fro across the fetched URLs with provided buttons. this is done by UI.iynpb.
-- Configuration : This is file where all the project related configuration are present which user has to mandatorily set if he/she wants to run the project in expected way. it is store in file Configuration.py
+- **Web Crawling** : It is collecting the URL starting from the provided seed URL and fetch all its related pages and keep on doing it until desired amount of pages are collected. done by WebCrawler.ipynb
+- **Web Scraping** : It is Parsing of the web Pages and collecting usual information from it like other pages link and data which is visible to user. It is done by Scrapper.py  
+- **Vectorizing** : We are calculating the **TF-IDF** from the fetched web pages data so as to convert their content into the vector form which later can be used for calculation of similarity of query. It is done by Vectorizer.iynpb.
+- **Ranking** : We are providing the rank to each web pages depending on its links to various pages and their ranks. So we have used **Page Rank Algorithm** to rank them. It is done by PageRank.ipynb
+- **Search** : One of the main task is to get the relevant links depending on query. For this first we calculates the Vector form of query in the similar way which is done for all the web pages content then computes **cosine similarity** of query vector with all the web pages and gives the top most similar web pages URL. After that sort those URLs depending on the ranks which is calculated in above step and sort it. These all stepa are done by Searh.py
+- **User Interface** : This is place throw which user interact with the system. Here he can provide the textbox where query can be entered and search. User can also navigate to and fro across the fetched URLs with provided buttons. this is done by UI.iynpb.
+- **Configuration** : This is file where all the project related configuration are present which user has to mandatorily set if he/she wants to run the project in expected way. it is store in file Configuration.py
 description about how to set these parameters is provided in the file itself.
 
 ## Perquisite for running the project
